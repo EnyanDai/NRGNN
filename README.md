@@ -1,4 +1,4 @@
-# FairGNN 
+# NRGNN 
 
 A PyTorch implementation of "NRGNN: Learning a Label Noise-Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs" (KDD 2021). [[paper]]()
 
