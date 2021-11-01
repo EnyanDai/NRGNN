@@ -1,6 +1,6 @@
 # NRGNN 
 
-A PyTorch implementation of "NRGNN: Learning a Label Noise-Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs" (KDD 2021). [[paper]](https://dl.acm.org/doi/abs/10.1145/3447548.3467364)
+A PyTorch implementation of "NRGNN: Learning a Label Noise-Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs" (KDD 2021). [[paper]](https://arxiv.org/pdf/2106.04714.pdf)
 
 
 <div align=center><img src="https://github.com/EnyanDai/NRGNN/blob/main/Framework.png" width="700"/></div>
@@ -51,7 +51,7 @@ If you find this repo to be useful, please cite our paper. Thank you.
 @article{dai2021nrgnn,
   title={NRGNN: Learning a Label Noise-Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs},
   author={Dai, Enyan and Aggarwal, Charu and Wang, Suhang},
-  journal={arXiv preprint arXiv:2106.04714},
+  journal={SIGKDD},
   year={2021}
 }
 ```
