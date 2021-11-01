@@ -6,11 +6,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from deeprobust.graph.utils import accuracy,sparse_mx_to_torch_sparse_tensor
 import warnings
 import torch_geometric.utils as utils
 import scipy.sparse as sp
 from models.GCN import GCN
+from utils import accuracy,sparse_mx_to_torch_sparse_tensor
 
 class NRGNN:
     def __init__(self, args, device):

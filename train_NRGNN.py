@@ -51,7 +51,7 @@ parser.add_argument('--noise', type=str, default='pair', choices=['uniform', 'pa
 args = parser.parse_known_args()[0]
 args.cuda = not args.no_cuda and torch.cuda.is_available()
 device = torch.device("cuda" if args.cuda else "cpu")
-
+print(device)
 if args.cuda:
     torch.cuda.manual_seed(args.seed)
 
