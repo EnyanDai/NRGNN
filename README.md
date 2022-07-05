@@ -68,13 +68,14 @@ bash train_NRGNN.sh
 ```
 ## 3. Compared Methods (to test)
 ### Co-teaching+
-* From Yu, Xingrui, et al. "How does disagreement help generalization against label corruption?." [[model](https://github.com/EnyanDai/NRGNN/blob/main/models/Coteaching.py), [trianing_example](https://github.com/EnyanDai/NRGNN/blob/main/baseline/train_Coteaching.py)]
+From Yu, Xingrui, et al. "How does disagreement help generalization against label corruption?." [[model](https://github.com/EnyanDai/NRGNN/blob/main/models/Coteaching.py), [trianing_example](https://github.com/EnyanDai/NRGNN/blob/main/baseline/train_Coteaching.py)]
 
 ### D-GNN
-* D-GNN is based on S-model from NT, Hoang, Choong Jun Jin, and Tsuyoshi Murata. "Learning graph neural networks with noisy labels." [[model](https://github.com/EnyanDai/NRGNN/blob/main/models/S_model.py), [trianing_example](https://github.com/EnyanDai/NRGNN/blob/main/baseline/train_S_model.py)]
+D-GNN is based on S-model from NT, Hoang, Choong Jun Jin, and Tsuyoshi Murata. "Learning graph neural networks with noisy labels." [[model](https://github.com/EnyanDai/NRGNN/blob/main/models/S_model.py), [trianing_example](https://github.com/EnyanDai/NRGNN/blob/main/baseline/train_S_model.py)]
 
 ### LafAK (CP)
-* From Zhang, Mengmei, et al. "Adversarial label-flipping attack and defense for graph neural networks." [[model](https://github.com/EnyanDai/NRGNN/blob/main/models/CP.py), [trianing_example](https://github.com/EnyanDai/NRGNN/blob/main/baseline/train_CP.py)] (Note that it is required to run deepwalk to obtain node embedding for the code.)
+
+From Zhang, Mengmei, et al. "Adversarial label-flipping attack and defense for graph neural networks." [[model](https://github.com/EnyanDai/NRGNN/blob/main/models/CP.py), [trianing_example](https://github.com/EnyanDai/NRGNN/blob/main/baseline/train_CP.py)] (Note that it is required to run deepwalk to obtain node embedding for the code.)
 
 Our reimplemention of these methods are in `./models`. Their example training codes are in `./baseline`. 
 
